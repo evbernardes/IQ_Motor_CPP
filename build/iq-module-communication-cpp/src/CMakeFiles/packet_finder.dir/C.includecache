@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../iq-module-communication-cpp/inc/byte_queue.h
+stdint.h
+-
+
+../iq-module-communication-cpp/inc/crc_helper.h
+stdint.h
+-
+
+../iq-module-communication-cpp/inc/packet_finder.h
+byte_queue.h
+../iq-module-communication-cpp/inc/byte_queue.h
+stdint.h
+-
+
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/packet_finder.c
+packet_finder.h
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/packet_finder.h
+crc_helper.h
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/crc_helper.h
+string.h
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/string.h
+stdio.h
+-
+

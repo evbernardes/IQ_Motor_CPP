@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbyte_queue.a  CMakeFiles/byte_queue.dir/byte_queue.c.o
+/usr/bin/ranlib libbyte_queue.a

@@ -1,0 +1,10 @@
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/CMakeFiles/rebuild_cache.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/CMakeFiles/edit_cache.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/src/CMakeFiles/edit_cache.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/src/CMakeFiles/rebuild_cache.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/src/CMakeFiles/play_song.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/src/CMakeFiles/buzzer_test.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/src/CMakeFiles/motor_speed_test.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/src/CMakeFiles/set_id.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/src/CMakeFiles/motor_test.dir
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/src/CMakeFiles/step.dir

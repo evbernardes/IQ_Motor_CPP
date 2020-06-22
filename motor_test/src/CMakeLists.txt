@@ -1,0 +1,56 @@
+cmake_minimum_required(VERSION 2.8)
+
+include_directories(${PROJECT_SOURCE_DIR}/motor_test/inc)
+
+include_directories(${PROJECT_SOURCE_DIR}/iq-module-communication-cpp/inc)
+link_directories(${PROJECT_SOURCE_DIR}/iq-module-communication-cpp/src)
+
+add_executable(buzzer_test buzzer_test.cpp)
+target_link_libraries(buzzer_test serial_interface)
+target_link_libraries(buzzer_test client_communication)
+target_link_libraries(buzzer_test iq-module-communication-cpp)
+target_link_libraries(buzzer_test byte_queue)
+target_link_libraries(buzzer_test crc_helper)
+target_link_libraries(buzzer_test packet_finder)
+
+add_executable(play_song play_song.cpp)
+target_link_libraries(play_song serial_interface)
+target_link_libraries(play_song client_communication)
+target_link_libraries(play_song iq-module-communication-cpp)
+target_link_libraries(play_song byte_queue)
+target_link_libraries(play_song crc_helper)
+target_link_libraries(play_song packet_finder)
+target_link_libraries(play_song my_helpers)
+
+add_executable(motor_test motor_test.cpp)
+target_link_libraries(motor_test serial_interface)
+target_link_libraries(motor_test client_communication)
+target_link_libraries(motor_test iq-module-communication-cpp)
+target_link_libraries(motor_test byte_queue)
+target_link_libraries(motor_test crc_helper)
+target_link_libraries(motor_test packet_finder)
+
+add_executable(motor_speed_test motor_speed_test.cpp)
+target_link_libraries(motor_speed_test serial_interface)
+target_link_libraries(motor_speed_test client_communication)
+target_link_libraries(motor_speed_test iq-module-communication-cpp)
+target_link_libraries(motor_speed_test byte_queue)
+target_link_libraries(motor_speed_test crc_helper)
+target_link_libraries(motor_speed_test packet_finder)
+
+add_executable(step step.cpp)
+target_link_libraries(step client_communication)
+target_link_libraries(step iq-module-communication-cpp)
+target_link_libraries(step byte_queue)
+target_link_libraries(step crc_helper)
+target_link_libraries(step packet_finder)
+
+add_executable(set_id set_id.cpp)
+target_link_libraries(set_id serial_interface)
+target_link_libraries(set_id client_communication)
+target_link_libraries(set_id iq-module-communication-cpp)
+target_link_libraries(set_id byte_queue)
+target_link_libraries(set_id crc_helper)
+target_link_libraries(set_id packet_finder)
+
+

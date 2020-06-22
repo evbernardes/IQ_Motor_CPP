@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../iq-module-communication-cpp/inc/bipbuffer.h
+stddef.h
+-
+
+../iq-module-communication-cpp/inc/byte_queue.h
+stdint.h
+-
+
+../iq-module-communication-cpp/inc/client_communication.hpp
+string.h
+-
+communication_interface.h
+../iq-module-communication-cpp/inc/communication_interface.h
+
+../iq-module-communication-cpp/inc/communication_interface.h
+stdint.h
+-
+
+../iq-module-communication-cpp/inc/generic_interface.hpp
+communication_interface.h
+../iq-module-communication-cpp/inc/communication_interface.h
+packet_finder.h
+../iq-module-communication-cpp/inc/packet_finder.h
+byte_queue.h
+../iq-module-communication-cpp/inc/byte_queue.h
+bipbuffer.h
+../iq-module-communication-cpp/inc/bipbuffer.h
+
+../iq-module-communication-cpp/inc/packet_finder.h
+byte_queue.h
+../iq-module-communication-cpp/inc/byte_queue.h
+stdint.h
+-
+
+../iq-module-communication-cpp/inc/step_direction_input_client.hpp
+client_communication.hpp
+../iq-module-communication-cpp/inc/client_communication.hpp
+
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/step.cpp
+generic_interface.hpp
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/generic_interface.hpp
+step_direction_input_client.hpp
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/step_direction_input_client.hpp
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/step.dir/step.cpp.o  -o step  -L"/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/iq-module-communication-cpp/src" -Wl,-rpath,"/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/iq-module-communication-cpp/src" -lclient_communication -liq-module-communication-cpp -lbyte_queue -lcrc_helper -lpacket_finder 

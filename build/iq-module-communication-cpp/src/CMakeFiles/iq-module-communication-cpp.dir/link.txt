@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiq-module-communication-cpp.a  CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o
+/usr/bin/ranlib libiq-module-communication-cpp.a

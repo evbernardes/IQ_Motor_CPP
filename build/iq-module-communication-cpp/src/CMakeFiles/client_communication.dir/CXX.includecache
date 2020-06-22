@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../iq-module-communication-cpp/inc/client_communication.hpp
+string.h
+-
+communication_interface.h
+../iq-module-communication-cpp/inc/communication_interface.h
+
+../iq-module-communication-cpp/inc/communication_interface.h
+stdint.h
+-
+
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/client_communication.cpp
+client_communication.hpp
+/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/client_communication.hpp
+
