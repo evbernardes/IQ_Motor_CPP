@@ -1,2 +1,0 @@
-/usr/bin/ar qc libclient_communication.a  CMakeFiles/client_communication.dir/client_communication.cpp.o
-/usr/bin/ranlib libclient_communication.a

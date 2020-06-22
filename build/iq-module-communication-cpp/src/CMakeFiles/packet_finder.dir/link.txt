@@ -1,2 +1,0 @@
-/usr/bin/ar qc libpacket_finder.a  CMakeFiles/packet_finder.dir/packet_finder.c.o
-/usr/bin/ranlib libpacket_finder.a

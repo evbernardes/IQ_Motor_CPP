@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcrc_helper.a  CMakeFiles/crc_helper.dir/crc_helper.c.o
-/usr/bin/ranlib libcrc_helper.a
