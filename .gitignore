@@ -1,0 +1,5 @@
+# Build directory
+/build
+
+# CMake cache files
+CMakeCache.txt

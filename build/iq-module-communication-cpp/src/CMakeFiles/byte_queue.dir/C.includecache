@@ -10,7 +10,7 @@
 stdint.h
 -
 
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/byte_queue.c
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/byte_queue.c
 byte_queue.h
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/byte_queue.h
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/byte_queue.h
 

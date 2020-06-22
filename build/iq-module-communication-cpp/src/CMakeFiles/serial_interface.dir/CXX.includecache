@@ -38,13 +38,13 @@ byte_queue.h
 bipbuffer.h
 ../iq-module-communication-cpp/inc/bipbuffer.h
 
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/serial_interface.cpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/serial_interface.cpp
 serial_interface.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/serial_interface.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/serial_interface.hpp
 crc_helper.h
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/crc_helper.h
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/crc_helper.h
 string.h
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/string.h
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/string.h
 sys/ioctl.h
 -
 stdio.h

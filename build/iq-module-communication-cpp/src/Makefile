@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor"
+CMAKE_SOURCE_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build"
+CMAKE_BINARY_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src/CMakeFiles/progress.marks"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" 0
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src/CMakeFiles/progress.marks"
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/clean
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/preinstall
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/preinstall
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/rule
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ my_helpers: iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/rule
 
 # fast build rule for target.
 my_helpers/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build.make iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build.make iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build
 .PHONY : my_helpers/fast
 
 # Convenience name for target.
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/rule
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ iq-module-communication-cpp: iq-module-communication-cpp/src/CMakeFiles/iq-modul
 
 # fast build rule for target.
 iq-module-communication-cpp/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build
 .PHONY : iq-module-communication-cpp/fast
 
 # Convenience name for target.
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/rule
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ crc_helper: iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/rule
 
 # fast build rule for target.
 crc_helper/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build
 .PHONY : crc_helper/fast
 
 # Convenience name for target.
 iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/rule
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ byte_queue: iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/rule
 
 # fast build rule for target.
 byte_queue/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build.make iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build.make iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build
 .PHONY : byte_queue/fast
 
 # Convenience name for target.
 iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/rule
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ packet_finder: iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/rule
 
 # fast build rule for target.
 packet_finder/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build.make iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build.make iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build
 .PHONY : packet_finder/fast
 
 # Convenience name for target.
 iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/rule
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ client_communication: iq-module-communication-cpp/src/CMakeFiles/client_communic
 
 # fast build rule for target.
 client_communication/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build.make iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build.make iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build
 .PHONY : client_communication/fast
 
 # Convenience name for target.
 iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/rule
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/rule
 
 # Convenience name for target.
@@ -212,7 +212,7 @@ serial_interface: iq-module-communication-cpp/src/CMakeFiles/serial_interface.di
 
 # fast build rule for target.
 serial_interface/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build.make iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build.make iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build
 .PHONY : serial_interface/fast
 
 byte_queue.o: byte_queue.c.o
@@ -221,7 +221,7 @@ byte_queue.o: byte_queue.c.o
 
 # target to build an object file
 byte_queue.c.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build.make iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/byte_queue.c.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build.make iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/byte_queue.c.o
 .PHONY : byte_queue.c.o
 
 byte_queue.i: byte_queue.c.i
@@ -230,7 +230,7 @@ byte_queue.i: byte_queue.c.i
 
 # target to preprocess a source file
 byte_queue.c.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build.make iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/byte_queue.c.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build.make iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/byte_queue.c.i
 .PHONY : byte_queue.c.i
 
 byte_queue.s: byte_queue.c.s
@@ -239,7 +239,7 @@ byte_queue.s: byte_queue.c.s
 
 # target to generate assembly for a file
 byte_queue.c.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build.make iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/byte_queue.c.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/build.make iq-module-communication-cpp/src/CMakeFiles/byte_queue.dir/byte_queue.c.s
 .PHONY : byte_queue.c.s
 
 client_communication.o: client_communication.cpp.o
@@ -248,7 +248,7 @@ client_communication.o: client_communication.cpp.o
 
 # target to build an object file
 client_communication.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build.make iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/client_communication.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build.make iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/client_communication.cpp.o
 .PHONY : client_communication.cpp.o
 
 client_communication.i: client_communication.cpp.i
@@ -257,7 +257,7 @@ client_communication.i: client_communication.cpp.i
 
 # target to preprocess a source file
 client_communication.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build.make iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/client_communication.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build.make iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/client_communication.cpp.i
 .PHONY : client_communication.cpp.i
 
 client_communication.s: client_communication.cpp.s
@@ -266,7 +266,7 @@ client_communication.s: client_communication.cpp.s
 
 # target to generate assembly for a file
 client_communication.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build.make iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/client_communication.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/build.make iq-module-communication-cpp/src/CMakeFiles/client_communication.dir/client_communication.cpp.s
 .PHONY : client_communication.cpp.s
 
 crc_helper.o: crc_helper.c.o
@@ -275,7 +275,7 @@ crc_helper.o: crc_helper.c.o
 
 # target to build an object file
 crc_helper.c.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.o
 .PHONY : crc_helper.c.o
 
 crc_helper.i: crc_helper.c.i
@@ -284,7 +284,7 @@ crc_helper.i: crc_helper.c.i
 
 # target to preprocess a source file
 crc_helper.c.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.i
 .PHONY : crc_helper.c.i
 
 crc_helper.s: crc_helper.c.s
@@ -293,7 +293,7 @@ crc_helper.s: crc_helper.c.s
 
 # target to generate assembly for a file
 crc_helper.c.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.s
 .PHONY : crc_helper.c.s
 
 generic_interface.o: generic_interface.cpp.o
@@ -302,7 +302,7 @@ generic_interface.o: generic_interface.cpp.o
 
 # target to build an object file
 generic_interface.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o
 .PHONY : generic_interface.cpp.o
 
 generic_interface.i: generic_interface.cpp.i
@@ -311,7 +311,7 @@ generic_interface.i: generic_interface.cpp.i
 
 # target to preprocess a source file
 generic_interface.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.i
 .PHONY : generic_interface.cpp.i
 
 generic_interface.s: generic_interface.cpp.s
@@ -320,7 +320,7 @@ generic_interface.s: generic_interface.cpp.s
 
 # target to generate assembly for a file
 generic_interface.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.s
 .PHONY : generic_interface.cpp.s
 
 my_helpers.o: my_helpers.cpp.o
@@ -329,7 +329,7 @@ my_helpers.o: my_helpers.cpp.o
 
 # target to build an object file
 my_helpers.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build.make iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/my_helpers.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build.make iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/my_helpers.cpp.o
 .PHONY : my_helpers.cpp.o
 
 my_helpers.i: my_helpers.cpp.i
@@ -338,7 +338,7 @@ my_helpers.i: my_helpers.cpp.i
 
 # target to preprocess a source file
 my_helpers.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build.make iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/my_helpers.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build.make iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/my_helpers.cpp.i
 .PHONY : my_helpers.cpp.i
 
 my_helpers.s: my_helpers.cpp.s
@@ -347,7 +347,7 @@ my_helpers.s: my_helpers.cpp.s
 
 # target to generate assembly for a file
 my_helpers.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build.make iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/my_helpers.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/build.make iq-module-communication-cpp/src/CMakeFiles/my_helpers.dir/my_helpers.cpp.s
 .PHONY : my_helpers.cpp.s
 
 packet_finder.o: packet_finder.c.o
@@ -356,7 +356,7 @@ packet_finder.o: packet_finder.c.o
 
 # target to build an object file
 packet_finder.c.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build.make iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/packet_finder.c.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build.make iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/packet_finder.c.o
 .PHONY : packet_finder.c.o
 
 packet_finder.i: packet_finder.c.i
@@ -365,7 +365,7 @@ packet_finder.i: packet_finder.c.i
 
 # target to preprocess a source file
 packet_finder.c.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build.make iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/packet_finder.c.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build.make iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/packet_finder.c.i
 .PHONY : packet_finder.c.i
 
 packet_finder.s: packet_finder.c.s
@@ -374,7 +374,7 @@ packet_finder.s: packet_finder.c.s
 
 # target to generate assembly for a file
 packet_finder.c.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build.make iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/packet_finder.c.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/build.make iq-module-communication-cpp/src/CMakeFiles/packet_finder.dir/packet_finder.c.s
 .PHONY : packet_finder.c.s
 
 serial_interface.o: serial_interface.cpp.o
@@ -383,7 +383,7 @@ serial_interface.o: serial_interface.cpp.o
 
 # target to build an object file
 serial_interface.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build.make iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/serial_interface.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build.make iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/serial_interface.cpp.o
 .PHONY : serial_interface.cpp.o
 
 serial_interface.i: serial_interface.cpp.i
@@ -392,7 +392,7 @@ serial_interface.i: serial_interface.cpp.i
 
 # target to preprocess a source file
 serial_interface.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build.make iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/serial_interface.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build.make iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/serial_interface.cpp.i
 .PHONY : serial_interface.cpp.i
 
 serial_interface.s: serial_interface.cpp.s
@@ -401,7 +401,7 @@ serial_interface.s: serial_interface.cpp.s
 
 # target to generate assembly for a file
 serial_interface.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build.make iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/serial_interface.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/build.make iq-module-communication-cpp/src/CMakeFiles/serial_interface.dir/serial_interface.cpp.s
 .PHONY : serial_interface.cpp.s
 
 # Help Target
@@ -451,6 +451,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

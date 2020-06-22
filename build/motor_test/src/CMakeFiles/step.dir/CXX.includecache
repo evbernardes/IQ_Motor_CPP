@@ -44,9 +44,9 @@ stdint.h
 client_communication.hpp
 ../iq-module-communication-cpp/inc/client_communication.hpp
 
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/step.cpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/step.cpp
 generic_interface.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/generic_interface.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/generic_interface.hpp
 step_direction_input_client.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/step_direction_input_client.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/step_direction_input_client.hpp
 

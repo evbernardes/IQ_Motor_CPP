@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor"
+CMAKE_SOURCE_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build"
+CMAKE_BINARY_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/motor_test/CMakeFiles/progress.marks"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" 0
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" "/home/evbernardes/Code Local/IQ_Motor_CPP/build/motor_test/CMakeFiles/progress.marks"
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/clean
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/preinstall
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/preinstall
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -129,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

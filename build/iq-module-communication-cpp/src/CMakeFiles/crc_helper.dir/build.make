@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor"
+CMAKE_SOURCE_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build"
+CMAKE_BINARY_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP/build"
 
 # Include any dependencies generated for this target.
 include iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/depend.make
@@ -59,16 +59,16 @@ include iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/flags.make
 
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.o: iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/flags.make
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.o: ../iq-module-communication-cpp/src/crc_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.o"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/crc_helper.dir/crc_helper.c.o   -c "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/crc_helper.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.o"
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/crc_helper.dir/crc_helper.c.o   -c "/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/crc_helper.c"
 
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/crc_helper.dir/crc_helper.c.i"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/crc_helper.c" > CMakeFiles/crc_helper.dir/crc_helper.c.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/crc_helper.c" > CMakeFiles/crc_helper.dir/crc_helper.c.i
 
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/crc_helper.dir/crc_helper.c.s"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/crc_helper.c" -o CMakeFiles/crc_helper.dir/crc_helper.c.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/crc_helper.c" -o CMakeFiles/crc_helper.dir/crc_helper.c.s
 
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.o.requires:
 
@@ -91,9 +91,9 @@ crc_helper_EXTERNAL_OBJECTS =
 iq-module-communication-cpp/src/libcrc_helper.a: iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/crc_helper.c.o
 iq-module-communication-cpp/src/libcrc_helper.a: iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build.make
 iq-module-communication-cpp/src/libcrc_helper.a: iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libcrc_helper.a"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -P CMakeFiles/crc_helper.dir/cmake_clean_target.cmake
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crc_helper.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libcrc_helper.a"
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -P CMakeFiles/crc_helper.dir/cmake_clean_target.cmake
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crc_helper.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/build: iq-module-communication-cpp/src/libcrc_helper.a
@@ -105,10 +105,10 @@ iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/requires: iq-module-co
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/requires
 
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/clean:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -P CMakeFiles/crc_helper.dir/cmake_clean.cmake
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -P CMakeFiles/crc_helper.dir/cmake_clean.cmake
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/clean
 
 iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/depend:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/evbernardes/Code Local/IQ_Motor_CPP" "/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src" "/home/evbernardes/Code Local/IQ_Motor_CPP/build" "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/crc_helper.dir/depend
 

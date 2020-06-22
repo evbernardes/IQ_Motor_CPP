@@ -64,17 +64,17 @@ communication_interface.h
 client_communication.hpp
 ../iq-module-communication-cpp/inc/client_communication.hpp
 
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/buzzer_test.cpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/buzzer_test.cpp
 generic_interface.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/generic_interface.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/generic_interface.hpp
 serial_interface.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/serial_interface.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/serial_interface.hpp
 voltage_superposition_client.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/voltage_superposition_client.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/voltage_superposition_client.hpp
 multi_turn_angle_control_client.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/multi_turn_angle_control_client.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/multi_turn_angle_control_client.hpp
 buzzer_control_client.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/buzzer_control_client.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/buzzer_control_client.hpp
 iostream
 -
 unistd.h

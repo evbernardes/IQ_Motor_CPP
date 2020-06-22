@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/inc" 
+C_INCLUDES = -I"/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/inc" 
 

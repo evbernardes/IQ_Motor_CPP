@@ -13,4 +13,4 @@ motor_test/src/CMakeFiles/play_song.dir/play_song.cpp.o
  ../iq-module-communication-cpp/inc/packet_finder.h
  ../iq-module-communication-cpp/inc/serial_interface.hpp
  ../iq-module-communication-cpp/inc/voltage_superposition_client.hpp
- /mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/play_song.cpp
+ /home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/play_song.cpp

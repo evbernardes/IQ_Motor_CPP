@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/inc" 
+CXX_INCLUDES = -I"/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/inc" 
 

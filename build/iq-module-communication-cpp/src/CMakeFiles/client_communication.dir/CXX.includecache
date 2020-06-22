@@ -16,7 +16,7 @@ communication_interface.h
 stdint.h
 -
 
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/client_communication.cpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/client_communication.cpp
 client_communication.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/client_communication.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/client_communication.hpp
 

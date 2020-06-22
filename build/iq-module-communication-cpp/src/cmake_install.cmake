@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src
+# Install script for directory: /home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src
+# Install script for directory: /home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

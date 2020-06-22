@@ -13,4 +13,4 @@ motor_test/src/CMakeFiles/motor_speed_test.dir/motor_speed_test.cpp.o
  ../iq-module-communication-cpp/inc/propeller_motor_control_client.hpp
  ../iq-module-communication-cpp/inc/serial_interface.hpp
  ../iq-module-communication-cpp/inc/voltage_superposition_client.hpp
- /mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/motor_test/src/motor_speed_test.cpp
+ /home/evbernardes/Code Local/IQ_Motor_CPP/motor_test/src/motor_speed_test.cpp

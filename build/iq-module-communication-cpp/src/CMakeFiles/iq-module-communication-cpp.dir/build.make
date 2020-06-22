@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor"
+CMAKE_SOURCE_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build"
+CMAKE_BINARY_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP/build"
 
 # Include any dependencies generated for this target.
 include iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/depend.make
@@ -59,16 +59,16 @@ include iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.d
 
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o: iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/flags.make
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o: ../iq-module-communication-cpp/src/generic_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o -c "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/generic_interface.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o"
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o -c "/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/generic_interface.cpp"
 
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.i"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/generic_interface.cpp" > CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/generic_interface.cpp" > CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.i
 
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.s"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/generic_interface.cpp" -o CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/generic_interface.cpp" -o CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.s
 
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o.requires:
 
@@ -91,9 +91,9 @@ iq__module__communication__cpp_EXTERNAL_OBJECTS =
 iq-module-communication-cpp/src/libiq-module-communication-cpp.a: iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/generic_interface.cpp.o
 iq-module-communication-cpp/src/libiq-module-communication-cpp.a: iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build.make
 iq-module-communication-cpp/src/libiq-module-communication-cpp.a: iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libiq-module-communication-cpp.a"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -P CMakeFiles/iq-module-communication-cpp.dir/cmake_clean_target.cmake
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iq-module-communication-cpp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libiq-module-communication-cpp.a"
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -P CMakeFiles/iq-module-communication-cpp.dir/cmake_clean_target.cmake
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iq-module-communication-cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/build: iq-module-communication-cpp/src/libiq-module-communication-cpp.a
@@ -105,10 +105,10 @@ iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/requi
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/requires
 
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/clean:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -P CMakeFiles/iq-module-communication-cpp.dir/cmake_clean.cmake
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" && $(CMAKE_COMMAND) -P CMakeFiles/iq-module-communication-cpp.dir/cmake_clean.cmake
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/clean
 
 iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/depend:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/evbernardes/Code Local/IQ_Motor_CPP" "/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src" "/home/evbernardes/Code Local/IQ_Motor_CPP/build" "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src" "/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : iq-module-communication-cpp/src/CMakeFiles/iq-module-communication-cpp.dir/depend
 

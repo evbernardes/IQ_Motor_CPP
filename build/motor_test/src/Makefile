@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor"
+CMAKE_SOURCE_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build"
+CMAKE_BINARY_DIR = "/home/evbernardes/Code Local/IQ_Motor_CPP/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/motor_test/src/CMakeFiles/progress.marks"
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/CMakeFiles" 0
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" "/home/evbernardes/Code Local/IQ_Motor_CPP/build/motor_test/src/CMakeFiles/progress.marks"
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/evbernardes/Code Local/IQ_Motor_CPP/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/clean
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/preinstall
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/preinstall
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 motor_test/src/CMakeFiles/play_song.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/play_song.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/play_song.dir/rule
 .PHONY : motor_test/src/CMakeFiles/play_song.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ play_song: motor_test/src/CMakeFiles/play_song.dir/rule
 
 # fast build rule for target.
 play_song/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/play_song.dir/build.make motor_test/src/CMakeFiles/play_song.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/play_song.dir/build.make motor_test/src/CMakeFiles/play_song.dir/build
 .PHONY : play_song/fast
 
 # Convenience name for target.
 motor_test/src/CMakeFiles/buzzer_test.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/buzzer_test.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/buzzer_test.dir/rule
 .PHONY : motor_test/src/CMakeFiles/buzzer_test.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ buzzer_test: motor_test/src/CMakeFiles/buzzer_test.dir/rule
 
 # fast build rule for target.
 buzzer_test/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/buzzer_test.dir/build.make motor_test/src/CMakeFiles/buzzer_test.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/buzzer_test.dir/build.make motor_test/src/CMakeFiles/buzzer_test.dir/build
 .PHONY : buzzer_test/fast
 
 # Convenience name for target.
 motor_test/src/CMakeFiles/motor_speed_test.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/motor_speed_test.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/motor_speed_test.dir/rule
 .PHONY : motor_test/src/CMakeFiles/motor_speed_test.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ motor_speed_test: motor_test/src/CMakeFiles/motor_speed_test.dir/rule
 
 # fast build rule for target.
 motor_speed_test/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_speed_test.dir/build.make motor_test/src/CMakeFiles/motor_speed_test.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_speed_test.dir/build.make motor_test/src/CMakeFiles/motor_speed_test.dir/build
 .PHONY : motor_speed_test/fast
 
 # Convenience name for target.
 motor_test/src/CMakeFiles/set_id.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/set_id.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/set_id.dir/rule
 .PHONY : motor_test/src/CMakeFiles/set_id.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ set_id: motor_test/src/CMakeFiles/set_id.dir/rule
 
 # fast build rule for target.
 set_id/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/set_id.dir/build.make motor_test/src/CMakeFiles/set_id.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/set_id.dir/build.make motor_test/src/CMakeFiles/set_id.dir/build
 .PHONY : set_id/fast
 
 # Convenience name for target.
 motor_test/src/CMakeFiles/motor_test.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/motor_test.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/motor_test.dir/rule
 .PHONY : motor_test/src/CMakeFiles/motor_test.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ motor_test: motor_test/src/CMakeFiles/motor_test.dir/rule
 
 # fast build rule for target.
 motor_test/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_test.dir/build.make motor_test/src/CMakeFiles/motor_test.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_test.dir/build.make motor_test/src/CMakeFiles/motor_test.dir/build
 .PHONY : motor_test/fast
 
 # Convenience name for target.
 motor_test/src/CMakeFiles/step.dir/rule:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/step.dir/rule
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f CMakeFiles/Makefile2 motor_test/src/CMakeFiles/step.dir/rule
 .PHONY : motor_test/src/CMakeFiles/step.dir/rule
 
 # Convenience name for target.
@@ -197,7 +197,7 @@ step: motor_test/src/CMakeFiles/step.dir/rule
 
 # fast build rule for target.
 step/fast:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/step.dir/build.make motor_test/src/CMakeFiles/step.dir/build
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/step.dir/build.make motor_test/src/CMakeFiles/step.dir/build
 .PHONY : step/fast
 
 buzzer_test.o: buzzer_test.cpp.o
@@ -206,7 +206,7 @@ buzzer_test.o: buzzer_test.cpp.o
 
 # target to build an object file
 buzzer_test.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/buzzer_test.dir/build.make motor_test/src/CMakeFiles/buzzer_test.dir/buzzer_test.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/buzzer_test.dir/build.make motor_test/src/CMakeFiles/buzzer_test.dir/buzzer_test.cpp.o
 .PHONY : buzzer_test.cpp.o
 
 buzzer_test.i: buzzer_test.cpp.i
@@ -215,7 +215,7 @@ buzzer_test.i: buzzer_test.cpp.i
 
 # target to preprocess a source file
 buzzer_test.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/buzzer_test.dir/build.make motor_test/src/CMakeFiles/buzzer_test.dir/buzzer_test.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/buzzer_test.dir/build.make motor_test/src/CMakeFiles/buzzer_test.dir/buzzer_test.cpp.i
 .PHONY : buzzer_test.cpp.i
 
 buzzer_test.s: buzzer_test.cpp.s
@@ -224,7 +224,7 @@ buzzer_test.s: buzzer_test.cpp.s
 
 # target to generate assembly for a file
 buzzer_test.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/buzzer_test.dir/build.make motor_test/src/CMakeFiles/buzzer_test.dir/buzzer_test.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/buzzer_test.dir/build.make motor_test/src/CMakeFiles/buzzer_test.dir/buzzer_test.cpp.s
 .PHONY : buzzer_test.cpp.s
 
 motor_speed_test.o: motor_speed_test.cpp.o
@@ -233,7 +233,7 @@ motor_speed_test.o: motor_speed_test.cpp.o
 
 # target to build an object file
 motor_speed_test.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_speed_test.dir/build.make motor_test/src/CMakeFiles/motor_speed_test.dir/motor_speed_test.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_speed_test.dir/build.make motor_test/src/CMakeFiles/motor_speed_test.dir/motor_speed_test.cpp.o
 .PHONY : motor_speed_test.cpp.o
 
 motor_speed_test.i: motor_speed_test.cpp.i
@@ -242,7 +242,7 @@ motor_speed_test.i: motor_speed_test.cpp.i
 
 # target to preprocess a source file
 motor_speed_test.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_speed_test.dir/build.make motor_test/src/CMakeFiles/motor_speed_test.dir/motor_speed_test.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_speed_test.dir/build.make motor_test/src/CMakeFiles/motor_speed_test.dir/motor_speed_test.cpp.i
 .PHONY : motor_speed_test.cpp.i
 
 motor_speed_test.s: motor_speed_test.cpp.s
@@ -251,7 +251,7 @@ motor_speed_test.s: motor_speed_test.cpp.s
 
 # target to generate assembly for a file
 motor_speed_test.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_speed_test.dir/build.make motor_test/src/CMakeFiles/motor_speed_test.dir/motor_speed_test.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_speed_test.dir/build.make motor_test/src/CMakeFiles/motor_speed_test.dir/motor_speed_test.cpp.s
 .PHONY : motor_speed_test.cpp.s
 
 motor_test.o: motor_test.cpp.o
@@ -260,7 +260,7 @@ motor_test.o: motor_test.cpp.o
 
 # target to build an object file
 motor_test.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_test.dir/build.make motor_test/src/CMakeFiles/motor_test.dir/motor_test.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_test.dir/build.make motor_test/src/CMakeFiles/motor_test.dir/motor_test.cpp.o
 .PHONY : motor_test.cpp.o
 
 motor_test.i: motor_test.cpp.i
@@ -269,7 +269,7 @@ motor_test.i: motor_test.cpp.i
 
 # target to preprocess a source file
 motor_test.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_test.dir/build.make motor_test/src/CMakeFiles/motor_test.dir/motor_test.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_test.dir/build.make motor_test/src/CMakeFiles/motor_test.dir/motor_test.cpp.i
 .PHONY : motor_test.cpp.i
 
 motor_test.s: motor_test.cpp.s
@@ -278,7 +278,7 @@ motor_test.s: motor_test.cpp.s
 
 # target to generate assembly for a file
 motor_test.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_test.dir/build.make motor_test/src/CMakeFiles/motor_test.dir/motor_test.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/motor_test.dir/build.make motor_test/src/CMakeFiles/motor_test.dir/motor_test.cpp.s
 .PHONY : motor_test.cpp.s
 
 play_song.o: play_song.cpp.o
@@ -287,7 +287,7 @@ play_song.o: play_song.cpp.o
 
 # target to build an object file
 play_song.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/play_song.dir/build.make motor_test/src/CMakeFiles/play_song.dir/play_song.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/play_song.dir/build.make motor_test/src/CMakeFiles/play_song.dir/play_song.cpp.o
 .PHONY : play_song.cpp.o
 
 play_song.i: play_song.cpp.i
@@ -296,7 +296,7 @@ play_song.i: play_song.cpp.i
 
 # target to preprocess a source file
 play_song.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/play_song.dir/build.make motor_test/src/CMakeFiles/play_song.dir/play_song.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/play_song.dir/build.make motor_test/src/CMakeFiles/play_song.dir/play_song.cpp.i
 .PHONY : play_song.cpp.i
 
 play_song.s: play_song.cpp.s
@@ -305,7 +305,7 @@ play_song.s: play_song.cpp.s
 
 # target to generate assembly for a file
 play_song.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/play_song.dir/build.make motor_test/src/CMakeFiles/play_song.dir/play_song.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/play_song.dir/build.make motor_test/src/CMakeFiles/play_song.dir/play_song.cpp.s
 .PHONY : play_song.cpp.s
 
 set_id.o: set_id.cpp.o
@@ -314,7 +314,7 @@ set_id.o: set_id.cpp.o
 
 # target to build an object file
 set_id.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/set_id.dir/build.make motor_test/src/CMakeFiles/set_id.dir/set_id.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/set_id.dir/build.make motor_test/src/CMakeFiles/set_id.dir/set_id.cpp.o
 .PHONY : set_id.cpp.o
 
 set_id.i: set_id.cpp.i
@@ -323,7 +323,7 @@ set_id.i: set_id.cpp.i
 
 # target to preprocess a source file
 set_id.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/set_id.dir/build.make motor_test/src/CMakeFiles/set_id.dir/set_id.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/set_id.dir/build.make motor_test/src/CMakeFiles/set_id.dir/set_id.cpp.i
 .PHONY : set_id.cpp.i
 
 set_id.s: set_id.cpp.s
@@ -332,7 +332,7 @@ set_id.s: set_id.cpp.s
 
 # target to generate assembly for a file
 set_id.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/set_id.dir/build.make motor_test/src/CMakeFiles/set_id.dir/set_id.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/set_id.dir/build.make motor_test/src/CMakeFiles/set_id.dir/set_id.cpp.s
 .PHONY : set_id.cpp.s
 
 step.o: step.cpp.o
@@ -341,7 +341,7 @@ step.o: step.cpp.o
 
 # target to build an object file
 step.cpp.o:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/step.dir/build.make motor_test/src/CMakeFiles/step.dir/step.cpp.o
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/step.dir/build.make motor_test/src/CMakeFiles/step.dir/step.cpp.o
 .PHONY : step.cpp.o
 
 step.i: step.cpp.i
@@ -350,7 +350,7 @@ step.i: step.cpp.i
 
 # target to preprocess a source file
 step.cpp.i:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/step.dir/build.make motor_test/src/CMakeFiles/step.dir/step.cpp.i
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/step.dir/build.make motor_test/src/CMakeFiles/step.dir/step.cpp.i
 .PHONY : step.cpp.i
 
 step.s: step.cpp.s
@@ -359,7 +359,7 @@ step.s: step.cpp.s
 
 # target to generate assembly for a file
 step.cpp.s:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(MAKE) -f motor_test/src/CMakeFiles/step.dir/build.make motor_test/src/CMakeFiles/step.dir/step.cpp.s
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(MAKE) -f motor_test/src/CMakeFiles/step.dir/build.make motor_test/src/CMakeFiles/step.dir/step.cpp.s
 .PHONY : step.cpp.s
 
 # Help Target
@@ -405,6 +405,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/evbernardes/Code Local/IQ_Motor_CPP/build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

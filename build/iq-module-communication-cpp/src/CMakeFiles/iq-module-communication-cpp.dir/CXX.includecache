@@ -38,11 +38,11 @@ byte_queue.h
 stdint.h
 -
 
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/generic_interface.cpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/generic_interface.cpp
 generic_interface.hpp
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/generic_interface.hpp
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/generic_interface.hpp
 crc_helper.h
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/crc_helper.h
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/crc_helper.h
 string.h
-/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp/src/string.h
+/home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp/src/string.h
 

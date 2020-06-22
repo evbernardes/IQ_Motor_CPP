@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/iq-module-communication-cpp
+# Install script for directory: /home/evbernardes/Code Local/IQ_Motor_CPP/iq-module-communication-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/data/AMUbox/Work and studies/Origabot/Code/Motor/build/iq-module-communication-cpp/src/cmake_install.cmake")
+  include("/home/evbernardes/Code Local/IQ_Motor_CPP/build/iq-module-communication-cpp/src/cmake_install.cmake")
 
 endif()
 
